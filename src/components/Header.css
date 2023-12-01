@@ -2,19 +2,21 @@
     display: flex;
 background-color: transparent;
 align-items: center;
-   .logo{
+justify-content: center;
+
+}
+   .header-logo{
    
    }
-   .img{
+   .header-img{
     width: 40px;
     height: 60px;
    }
-    .line{
+    .header-line{
       height: 1px;
       background-color: #333;
       width: 100%;
     }
-    .subtitle{
+    .header-subtitle{
         font-style: italic;
     }
-}

@@ -5,14 +5,14 @@ import Logo from "../assets/logo.png";
 const Header = () => {
   return (
     <div className="header">
-      <div className="logo">
-        <img src={Logo} className="img" />
+      <div className="header-logo">
+        <img src={Logo} className="header-img" />
       </div>
-      <div className="content">
-        <div className="line"></div>
+      <div className="header-content">
+        <div className="header-line"></div>
         <div>J. WHITLEY WILLS, DDS</div>
-        <div className="subtitle">"CREATING UNFORGETABLE SMILES"</div>
-        <div className="line"></div>
+        <div className="header-subtitle">"CREATING UNFORGETABLE SMILES"</div>
+        <div className="header-line"></div>
       </div>
     </div>
   );

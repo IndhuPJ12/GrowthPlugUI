@@ -1,5 +1,6 @@
 .navbar{
 background-color: #318CE7;
+
 }
 .navbar ul {
     list-style: none;
@@ -8,6 +9,7 @@ background-color: #318CE7;
     align-items: center;
     padding: 5px 20px 5px 20px;
     justify-content: center;
+    margin-bottom: 1px;
 }
 .navbar li {
     display: flex;
