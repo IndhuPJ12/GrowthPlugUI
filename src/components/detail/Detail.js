@@ -11,7 +11,7 @@ const Detail = () => {
       </div>
       <div className="detail-content">
         <div className="detail-image-container">
-          <img src={DetailImage} className="detail-image" />
+          <img src={DetailImage} alt='whitley wills details' className="detail-image" />
         </div>
         <div className="detail-subcontent">
           <div className="detail-subtitle">

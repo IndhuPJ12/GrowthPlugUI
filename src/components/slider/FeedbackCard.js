@@ -5,7 +5,7 @@ import StarIcon from "../../assets/star.svg";
 const renderStar = (count) => {
   const stars = [];
   for (let i = 0; i < count; i++) {
-    stars.push(<img src={StarIcon} />);
+    stars.push(<img src={StarIcon} alt="star" />);
   }
   return stars;
 };
