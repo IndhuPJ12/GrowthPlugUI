@@ -5,7 +5,7 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <div className="banner">
-      <img src={BannerImg} className="banner-image" />
+      <img src={BannerImg} alt='whitley wills banner' className="banner-image" />
 
       <div className="content">
         <div className="title">CREATING UNFORGETABLE SMILES</div>

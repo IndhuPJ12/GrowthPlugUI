@@ -5,7 +5,7 @@ const CircleContainer = ({ icon }) => {
   return (
     <div className="circle-container">
       <div>
-        <img src={icon} className="circle-image" />
+        <img src={icon} alt='icons' className="circle-image" />
       </div>
     </div>
   );

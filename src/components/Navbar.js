@@ -25,7 +25,7 @@ const Navbar = () => {
           <button>REQUEST AN APPOINMENT</button>
         </li>
         <li>
-          <img src={ContactIcon} className="contact-icon" />
+          <img src={ContactIcon} alt='contact' className="contact-icon" />
           <a href="#">(901) 726-9525</a>
         </li>
       </ul>
