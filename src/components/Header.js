@@ -10,7 +10,7 @@ const Header = () => {
       </div>
       <div className="header-content">
         <div className="header-line"></div>
-        <div>J. WHITLEY WILLS, DDS</div>
+        <div className="header-title">J. WHITLEY WILLS, DDS</div>
         <div className="header-subtitle">"CREATING UNFORGETABLE SMILES"</div>
         <div className="header-line"></div>
       </div>

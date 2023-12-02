@@ -1,8 +1,11 @@
 .insurance-container {
     display: flex;
-    /* gap: 60px; */
     justify-content: space-between;
     margin-bottom: 30px;
+
+    @media (max-width:768px) {
+        display: block;
+    }
 }
 
 .insurance-content {
@@ -13,6 +16,10 @@
     justify-content: center;
     gap: 10px;
     margin-left: 150px;
+
+    @media (max-width:768px) {
+        margin-left: 0px;
+    }
 }
 
 .insurance-title {
@@ -30,11 +37,12 @@
     ;
 }
 
-/* .insurance-image-wrapper{
-max-width: 500px;
-max-height: 300px;
-} */
 .insurance-image {
     max-width: 700px;
     max-height: 700px;
+
+    @media (max-width:768px) {
+        max-width: 300px;
+        max-height: 400px;
+    }
 }

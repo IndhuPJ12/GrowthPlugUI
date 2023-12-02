@@ -13,22 +13,22 @@ const Detail = () => {
         <div className="detail-image-container">
           <img src={DetailImage} className="detail-image" />
         </div>
-       <div className="detail-subcontent">
-        <div className="detail-subtitle">
-          WELCOME TO OUR PRACTICE DR. J. WHITLEY WILLS
-        </div>
-        <div className="detail-description">
-          Welcome to the office of Dr. J Whitley Wills! Our dentist has been
-          providing exceptional general cosmetic, implant restorative and
-          prevantive debtistry in Memphis , Tennesse , and the surrounding areas
-          since 1993, and he knows just how to take care of you. With his
-          knowledge and experience , Dr J .Whitley Wills will work with you to
-          help you achieve all your dental goals. Dr.Whitley Wills also utilizes
-          some of the latest technology available to improve the health of your
-          smile. Whether you are missing teeth and require dental implants or
-          you are visiting for a routine exam , you know that you are in good
-          hands at our office
-        </div>
+        <div className="detail-subcontent">
+          <div className="detail-subtitle">
+            WELCOME TO OUR PRACTICE DR. J. WHITLEY WILLS
+          </div>
+          <div className="detail-description">
+            Welcome to the office of Dr. J Whitley Wills! Our dentist has been
+            providing exceptional general cosmetic, implant restorative and
+            prevantive debtistry in Memphis , Tennesse , and the surrounding
+            areas since 1993, and he knows just how to take care of you. With
+            his knowledge and experience , Dr J .Whitley Wills will work with
+            you to help you achieve all your dental goals. Dr.Whitley Wills also
+            utilizes some of the latest technology available to improve the
+            health of your smile. Whether you are missing teeth and require
+            dental implants or you are visiting for a routine exam , you know
+            that you are in good hands at our office
+          </div>
         </div>
       </div>
     </div>

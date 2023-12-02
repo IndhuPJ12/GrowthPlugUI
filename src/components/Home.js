@@ -37,49 +37,71 @@ const Home = () => {
     GalleryImage9,
     GalleryImage10,
   ];
+  const services = [
+    {
+      icon: ToothIcon,
+      label: "IMPLANT DENTISTRY",
+    },
+    {
+      icon: ToothIcon,
+      label: "GLO TEETH WHITENING",
+    },
+    {
+      icon: ToothIcon,
+      label: "REVEAL CLEAR ALIGNERS",
+    },
+    {
+      icon: ToothIcon,
+      label: "PORCELAIN DENTAL VENERS",
+    },
+    {
+      icon: ToothIcon,
+      label: "DENTAL CROWN AND BRIDGE",
+    },
+  ];
+  const cards = [
+    {
+      image: Image1,
+      label: "ONLINE FORMS",
+    },
+    {
+      image: Image1,
+      label: "MEET DR.WILLS",
+    },
+    {
+      image: Image1,
+      label: "PATIENT REVIEWS",
+    },
+    {
+      image: Image1,
+      label: "FUN TEAM PHOTOS",
+    },
+  ];
 
   return (
-    <div>
+    <div className="home-container">
       <Header />
-
       <Navbar />
-
       <Banner />
       <div className="card-container">
-        <Card title={"ONLINE FORMS"} Image={Image1} />
-        <Card title={"MEET DR.WILLS"} Image={Image1} />
-        <Card title={"PATIENT REVIEWS"} Image={Image1} />
-        <Card title={"FUN TEAM PHOTOS"} Image={Image1} />
+        {cards?.map((cardItems) => (
+          <Card title={cardItems?.label} Image={cardItems?.image} />
+        ))}
       </div>
       <Detail />
       <Introduction />
       <div className="icon-wrapper">
-        <span className="icon-container-title">Dental Services</span>
+        <span className="icon-container-title">SERVICES</span>
         <div className="icon-container">
-          <div className="icon-content">
-            <CircleContainer icon={ToothIcon} />
-            <div className="icon-label">IMPLANT DENTISTRY</div>
-          </div>
-          <div className="icon-content">
-            <CircleContainer icon={ToothIcon} />
-            <div className="icon-label">GLO TEETH WHITENING</div>
-          </div>
-          <div className="icon-content">
-            <CircleContainer icon={ToothIcon} />
-            <div className="icon-label">REVEAL CLEAR ALIGNERS</div>
-          </div>
-          <div className="icon-content">
-            <CircleContainer icon={ToothIcon} />
-            <div className="icon-label">PORCELAIN DENTAL VENERS</div>
-          </div>
-          <div className="icon-content">
-            <CircleContainer icon={ToothIcon} />
-            <div className="icon-label">DENTAL CROWN AND BRIDGE</div>
-          </div>
+          {services?.map((serviceItems) => (
+            <div className="icon-content">
+              <CircleContainer icon={serviceItems?.icon} />
+              <div className="icon-label">{serviceItems?.label}</div>
+            </div>
+          ))}
         </div>
       </div>
       <Feedbak />
-      {/* <Gallery/> */}
       <Insurance />
       <Gallery images={images} />
       <Footer />
