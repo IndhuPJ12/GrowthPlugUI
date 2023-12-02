@@ -5,24 +5,31 @@
     width: 100%;
     margin-bottom: 30px;
 }
+.slider-title{
+    color: #6CB4EE;
+    font-size: 24px;
+}
 
 .feedback-wrapper {
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 .feedback-card-container {
-    width: 300px;
+    width: 250px;
     height: 200px;
     background-color: #4B9CD3;
     margin-left: 10px;
+    border-radius: 4px;
+    padding: 20px;
 }
 
 .title-card-container {
     background-color: #4B9CD3;
-    width: 600px;
+    max-width: 600px;
     height: 150px;
     display: flex;
     border-radius: 4px;
@@ -30,11 +37,12 @@
     justify-content: left;
     gap: 30px;
     margin-bottom: 30px;
-    /* padding: 60px; */
+    padding: 10px;
+    color: white;
 }
 
 .title-card-icon {
-    width: 100px;
+    max-width: 100px;
     height: 100px;
     border-radius: 50%;
     background-color: black;

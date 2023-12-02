@@ -1,31 +1,45 @@
+.footer-container iframe {
+    @media (max-width:768px) {
+        max-width: 300px;
+        max-height: 400px;
+    }
+}
+
 .footer-container {
     background-color: #318CE7;
     display: flex;
-    gap:50px;
+    gap: 50px;
     flex-wrap: wrap;
     padding: 30px;
+    justify-content: space-around;
 }
-.footer-map{
+
+.footer-map {
     border-radius: 8px;
 }
+
 .footer-content {
     color: white;
     display: flex;
     font-size: 14px;
     line-height: 24px;
     flex-wrap: wrap;
-   
-}
-.footer-timing li{
- list-style: none;
- display: flex;
- gap:40px;
- justify-content: space-between;
+    justify-content: space-around;
+    width: 50%;
+
 }
 
-.footer-navigation li{
+.footer-timing li {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.footer-navigation li {
     list-style: none;
 }
-.footer-address{
+
+.footer-address {
     width: 30%;
 }

@@ -46,18 +46,26 @@ const Feedbak = () => {
     style: { marginRight: "10px", padding: "0", width: "62%" },
     responsive: [
       {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          style: { margin: "10px", width: "60%" },
+        },
+      },
+      {
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          style: { margin: "10px", width: "50%" },
+          style: { margin: "10px", width: "100%" },
         },
       },
     ],
   };
   return (
     <div className="feedback-wrapper">
-      <div>OUR REVIEWS</div>
+      <div className="slider-title">OUR REVIEWS</div>
       <div>
         <FeedbackTitleCard
           title={"J. WHITLEY WILLS, DDS"}

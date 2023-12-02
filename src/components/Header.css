@@ -6,10 +6,8 @@
 
 }
 
-.header-logo {}
-
 .header-img {
-  width: 40px;
+  max-width: 70px;
   height: 60px;
 }
 
@@ -18,7 +16,11 @@
   background-color: #333;
   width: 100%;
 }
-
+.header-title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+}
 .header-subtitle {
   font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }

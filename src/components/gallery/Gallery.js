@@ -14,7 +14,7 @@ const Gallery = ({ images }) => {
 
   return (
     <div className="gallery-container">
-      <div className="gallery-title">Gallery</div>
+      <div className="gallery-title">GALLERY</div>
       {images.slice(startIndex, startIndex + 5).map((image, index) => (
         <img key={index} src={image} alt="gallery" className="gallery-image" />
       ))}

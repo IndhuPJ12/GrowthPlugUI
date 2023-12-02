@@ -2,9 +2,6 @@ import React from "react";
 import "./FeedbackCard.css";
 import StarIcon from "../../assets/star.svg";
 
-export const FeedbackCard = ({ feedback }) => {
-  return <div className="feedback-card-container">{feedback}</div>;
-};
 const renderStar = (count) => {
   const stars = [];
   for (let i = 0; i < count; i++) {
@@ -13,6 +10,14 @@ const renderStar = (count) => {
   return stars;
 };
 
+export const FeedbackCard = ({ feedback }) => {
+  return (
+    <div className="feedback-card-container">
+      <div style={{ display: "flex" }}>{renderStar(5)}</div>
+      <div>{feedback}</div>
+    </div>
+  );
+};
 export const FeedbackTitleCard = ({ title, description, icon, rating }) => {
   return (
     <div className="title-card-container">
