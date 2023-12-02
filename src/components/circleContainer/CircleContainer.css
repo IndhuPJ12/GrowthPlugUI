@@ -1,0 +1,16 @@
+.circle-container{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: blue;
+    background-color: #4B9CD3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-image{
+    align-items: center;
+    width:60px;
+    height: 60px;
+    color: white;
+}

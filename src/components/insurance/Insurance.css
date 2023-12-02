@@ -1,0 +1,40 @@
+.insurance-container {
+    display: flex;
+    /* gap: 60px; */
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.insurance-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 150px;
+}
+
+.insurance-title {
+    color: #6CB4EE;
+    font-size: 32px;
+}
+
+.insurance-description {
+    font-size: 16px;
+}
+
+.insurance-link {
+    font-size: 14px;
+    color: #6CB4EE;
+    ;
+}
+
+/* .insurance-image-wrapper{
+max-width: 500px;
+max-height: 300px;
+} */
+.insurance-image {
+    max-width: 700px;
+    max-height: 700px;
+}
